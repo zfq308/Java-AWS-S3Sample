@@ -41,4 +41,4 @@ a.	http://www.oracle.com/us/support/index.html
 b.	http://www.eclipse.org/forums/  
 c.	https://aws.amazon.com/premiumsupport/  
 d.	http://aws.amazon.com/sdk-for-java/  
-e	http://aws.amazon.com/eclipse/
+e.	http://aws.amazon.com/eclipse/
