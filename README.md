@@ -5,8 +5,9 @@ Prerequisites
 --------------
 1.  Create an **AWS** account. Learn more about AWS here http://aws.amazon.com/getting-started/
 
-2.  Create an **IAM** user with the required permissions to perform **S3** related operations. Learn more here --> http://docs.aws.amazon.com/IAM/latest/UserGuide/GSGHowToCreateAdminsGroup.html  
-	**Note**: It is advisable to assign least privileges to users.
+2.  Create an **IAM** user with the required permissions to perform related operations. Learn more here --> http://docs.aws.amazon.com/IAM/latest/UserGuide/GSGHowToCreateAdminsGroup.html  
+	Fill in your AWS access credentials in the provided credentials file template, and be sure to move the file to the default location (~/.aws/credentials) where the sample code will load the credentials from.  
+	**WANRNING:** To avoid accidental leakage of your credentials, DO NOT keep the credentials file in your source directory. http://aws.amazon.com/security-credentials  
 	
 3.	Create an **Access Key** and **Secret Key** for your user. It is required in **Step 7**. Learn more here http://docs.aws.amazon.com/IAM/latest/UserGuide/ManagingCredentials.html#Using_CreateAccessKey
 
