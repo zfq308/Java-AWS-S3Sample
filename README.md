@@ -8,7 +8,7 @@ Prerequisites
 --------------
 1.  Create an **AWS** account. Learn more about AWS here http://aws.amazon.com/getting-started/
 
-2.  Create an **IAM** user with the required permissions to perform related operations. Learn more here --> http://docs.aws.amazon.com/IAM/latest/UserGuide/GSGHowToCreateAdminsGroup.html  
+2.  Create an **IAM** user with the required permissions to perform related operations. Learn more here http://docs.aws.amazon.com/IAM/latest/UserGuide/GSGHowToCreateAdminsGroup.html  
 	
 3.	Create an **Access Key** and **Secret Key** for the user. Learn more here http://docs.aws.amazon.com/IAM/latest/UserGuide/ManagingCredentials.html#Using_CreateAccessKey  
 	Fill in your AWS access credentials in the provided credentials file template, and be sure to move the file to the default location (~/.aws/credentials) where the sample code will load the credentials from.  
