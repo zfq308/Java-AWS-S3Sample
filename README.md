@@ -24,7 +24,7 @@ Prerequisites
 
 8.  Install the **AWS SDK for Java**. In **Eclipse** > click on **Help** > **Install New Software...** > In the resulting window under **Work with**, enter "http://aws.amazon.com/eclipse" and hit the Tab key. In the below window, select **AWS Toolkit for Eclipse** and click **Next**. Accept the defaults on the next screen and click on **Next**. Accept the license agreements after reading them and finally click on **Finish**.  
 
-9.  To run the programm in Eclipse, you can follow either one of the below metnioned methods.  
+9.  To run this programme in Eclipse, you can follow either one of the below metnioned methods.  
   	a. In Eclipse click **File** > **New** > **Java Project** > Give the project a name **S3Sample** > **Next** > click on **Libraries** > **Add Library..** > select **AWS SDK for Java** click **Next** and **Finish**. Click **Finish** again.  
 	Right click the S3Sample project and select **New** > **Class**. Name the class **S3Sample**. Replace the contents of the S3Sample class with the contents of the attached S3Sample.java file.  
 	b. In Eclipse **File** > **Import** > under **Git** > select **Projects from Git** and click **Next**. Select **CloneURl** and click **Next**. In the next window enter "https://github.com/KarthikChandy/Java-AWS-S3Sample.git" in the **URl** text box. Accept the defaults and click on **Next**. Select your local Git directory using the Brownse button and click **Next** > **Next** and **Finish**.
@@ -33,9 +33,12 @@ Run S3Sample.java
 -----------------
 Look for **S3Sample.java** by expanding your project > src > default. Right click **S3Sample.java** and select **Run As Java Application** to execute the code. You should find the output under the **Console** tab in Eclipse.
 
-Support
--------------------
+Support and Referrences
+-----------------------
 Use this script at your own risk.
 
 a.	http://www.oracle.com/us/support/index.html  
-b.	http://www.eclipse.org/forums/
+b.	http://www.eclipse.org/forums/  
+c.	https://aws.amazon.com/premiumsupport/  
+d.	http://aws.amazon.com/sdk-for-java/  
+e	http://aws.amazon.com/eclipse/
