@@ -1,6 +1,7 @@
 AWS Java Basics - S3 - Basic S3 Operations 
 ===========================================
 This repository is based on https://github.com/aws/aws-sdk-java/blob/master/src/samples/AmazonS3/S3Sample.java  
+This script demonstrates how to make simple S3 API calls.   
 By using this script, you agree to the the Terms and Conditions of products and services used.
 
 Prerequisites
@@ -19,7 +20,9 @@ Prerequisites
  
 6.  Install **EGit** from http://download.eclipse.org/egit/updates/ to download code stored on Git.
 
-7.  Open **Eclipse** and first update your IDE. **Help** > **Check for Updates**. Install any updates if available.   
+7.  Open **Eclipse** and first update your IDE. **Help** > **Check for Updates**. Install any updates if available.
+
+8.  Install **Install the AWS SDK for Java**. In **Eclipse** > **Help** > **Install New Software...** > In the resulting window, enter "http://aws.amazon.com/eclipse" under **Work with** and hit the Tab key. In the below window, select **AWS Toolkit for Eclipse** and click **Next**. Accept the defaults on the next screen and click on **Next**. Accept the license agreements after reading them and finally click on **Finish**.  
 
 8.  Create a new project in Eclipse by selecting **File** > **New** > **Java Project** > Give the project a name > **Next** > **Finish**
 
