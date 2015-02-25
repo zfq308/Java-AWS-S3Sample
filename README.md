@@ -14,15 +14,15 @@ Prerequisites
 	Fill in your AWS access credentials in the provided credentials file template, and be sure to move the file to the default location (~/.aws/credentials) where the sample code will load the credentials from.  
 	**WANRNING:** To avoid accidental leakage of your credentials, DO NOT keep the credentials file in your source directory. http://aws.amazon.com/security-credentials
 
-4.  Download and install **JDK-EE** and **JEE** from http://www.oracle.com/technetwork/java/javaee/downloads/index.html
+4.  Download and install the latest versions of **JDK-EE** and **JEE** from http://www.oracle.com/technetwork/java/javaee/downloads/index.html
 
 5.  Install **Eclipse IDE for Java EE Developers** from http://www.eclipse.org/downloads/
  
 6.  Install **EGit** from http://download.eclipse.org/egit/updates/ to download code stored on Git.
 
-7.  Open **Eclipse** and first update your IDE. **Help** > **Check for Updates**. Install any updates if available.
+7.  Open **Eclipse** and first update your IDE. Choose **Help** > **Check for Updates**. Install any available updates.
 
-8.  Install **Install the AWS SDK for Java**. In **Eclipse** > **Help** > **Install New Software...** > In the resulting window, enter "http://aws.amazon.com/eclipse" under **Work with** and hit the Tab key. In the below window, select **AWS Toolkit for Eclipse** and click **Next**. Accept the defaults on the next screen and click on **Next**. Accept the license agreements after reading them and finally click on **Finish**.  
+8.  Install the **AWS SDK for Java**. In **Eclipse** > click on **Help** > **Install New Software...** > In the resulting window under **Work with**, enter "http://aws.amazon.com/eclipse" and hit the Tab key. In the below window, select **AWS Toolkit for Eclipse** and click **Next**. Accept the defaults on the next screen and click on **Next**. Accept the license agreements after reading them and finally click on **Finish**.  
 
 8.  Create a new project in Eclipse by selecting **File** > **New** > **Java Project** > Give the project a name > **Next** > **Finish**
 
